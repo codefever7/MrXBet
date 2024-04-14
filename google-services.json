@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "153252122040",
+    "project_id": "mrxbet-dev-services",
+    "storage_bucket": "mrxbet-dev-services.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153252122040:android:131edffef5270062ff134d",
+        "android_client_info": {
+          "package_name": "com.devservices.mrxbet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj3DFHbeEbw_LMjGAwg7QCAfmY7_uJkx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
