@@ -24,6 +24,9 @@
         "backgroundColor": "#ffffff"
       },
       "icon": "./assets/onesignal-notification-icon.png",
+      "notification": {
+        "smallIcon": "./assets/onesignal-notification-icon.png"
+      },
       "package": "com.devservices.mrxbet",
       "versionCode": 1
     },
@@ -35,6 +38,11 @@
         }
       ]
     ],
+    "notification": {
+      "icon": "./assets/ic_stat_onesignal_default.png",
+      "androidMode": "default",
+      "smallIcons": ["./assets/onesignal-notification-icon.png"]
+    },
     "extra": {
       "eas": {
         "build": {
