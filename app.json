@@ -30,7 +30,7 @@
         "smallIcon": "./assets/ic_stat_onesignal_default.png"
       },
       "package": "com.devservices.mrxbet",
-      "versionCode": 4
+      "versionCode": 5
     },
     "plugins": [
       [
