@@ -24,9 +24,6 @@
         "backgroundColor": "#ffffff"
       },
       "icon": "./assets/onesignal-notification-icon.png",
-      "notification": {
-        "smallIcon": "./assets/onesignal-notification-icon.png"
-      },
       "package": "com.devservices.mrxbet",
       "versionCode": 1
     },
@@ -38,14 +35,25 @@
         }
       ]
     ],
-    "notification": {
-      "icon": "./assets/onesignal-notification-icon.png",
-      "androidMode": "default",
-      "smallIcons": ["./assets/onesignal-notification-icon.png"]
-    },
     "extra": {
-      "oneSignalAppId": "2f749fe2-b92d-49eb-b0a3-b700d2f0d777",
       "eas": {
+        "build": {
+          "experimental": {
+            "ios": {
+              "appExtensions": [
+                {
+                  "targetName": "OneSignalNotificationServiceExtension",
+                  "bundleIdentifier": "com.devservices.mrxbet.OneSignalNotificationServiceExtension",
+                  "entitlements": {
+                    "com.apple.security.application-groups": [
+                      "group.com.devservices.mrxbet.onesignal"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
         "projectId": "9e7e1fe9-2ab6-46f1-9dbe-c0c935e6bea8"
       }
     }
