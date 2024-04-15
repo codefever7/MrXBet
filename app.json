@@ -25,12 +25,12 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "icon": "./assets/onesignal-notification-icon.png",
+      "icon": "./assets/ic_stat_onesignal_default.png",
       "notification": {
-        "smallIcon": "./assets/onesignal-notification-icon.png"
+        "smallIcon": "./assets/ic_stat_onesignal_default.png"
       },
       "package": "com.devservices.mrxbet",
-      "versionCode": 2
+      "versionCode": 3
     },
     "plugins": [
       [
@@ -41,10 +41,10 @@
       ]
     ],
     "notification": {
-      "icon": "./assets/onesignal-notification-icon.png",
+      "icon": "./assets/ic_stat_onesignal_default.png",
       "androidMode": "default",
       "smallIcons": [
-        "./assets/onesignal-notification-icon.png"
+        "./assets/ic_stat_onesignal_default.png"
       ]
     },
     "extra": {
