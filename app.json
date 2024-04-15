@@ -30,9 +30,6 @@
       "package": "com.devservices.mrxbet",
       "versionCode": 1
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "plugins": [
       [
         "onesignal-expo-plugin",
