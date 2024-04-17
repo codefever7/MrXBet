@@ -15,6 +15,7 @@ import { LogLevel, OneSignal } from "react-native-onesignal";
 import { fetchActiveURL } from "./utils/api";
 import { STATUS_BAR_HEIGHT } from "./utils/constant";
 import ArrowIcon from "./assets/rightarrow.png";
+import HomeBg from "./assets/homebg.png";
 
 const ONE_SIGNAL_APP_ID = "21e182db-3693-4235-b74d-82e4b6fa6e2e";
 export default function App() {
@@ -93,7 +94,11 @@ export default function App() {
       ) : (
         <View style={styles.containetView}>
           <ImageBackground
-            source={{ uri: `https:${splashBackgroundImage}` }}
+            source={
+              splashBackgroundImage
+                ? { uri: `https:${splashBackgroundImage}` }
+                : HomeBg
+            }
             resizeMode="cover"
             style={styles.imageBgStyles}
           />
