@@ -2,7 +2,7 @@
   "expo": {
     "name": "MrXBet",
     "slug": "MrXBet",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -30,7 +30,7 @@
         "smallIcon": "./assets/ic_stat_onesignal_default.png"
       },
       "package": "com.devservices.mrxbet",
-      "versionCode": 6
+      "versionCode": 7
     },
     "plugins": [
       [

@@ -29,7 +29,9 @@ export default function App() {
 
       OneSignal.initialize(ONE_SIGNAL_APP_ID);
 
-      OneSignal.Notifications.requestPermission(true);
+      OneSignal.Notifications.requestPermission(true).then(async (granted) => {
+        fetchData();
+      });
 
       OneSignal.Notifications.addEventListener("click", (event) => {
         console.log("OneSignal: notification clicked:", event);
@@ -39,7 +41,6 @@ export default function App() {
 
   useEffect(() => {
     oneSignalInit();
-    fetchData();
   }, []);
 
   const fetchData = async () => {
