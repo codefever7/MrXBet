@@ -18,7 +18,7 @@
       "supportsTablet": true,
       "requireFullScreen": true,
       "bundleIdentifier": "com.devservices.mrxbet",
-      "buildNumber": "10"
+      "buildNumber": "12"
     },
     "android": {
       "googleServicesFile": "./google-services.json",
