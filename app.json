@@ -17,7 +17,8 @@
     "ios": {
       "supportsTablet": true,
       "requireFullScreen": true,
-      "bundleIdentifier": "com.devservices.mrxbet"
+      "bundleIdentifier": "com.devservices.mrxbet",
+      "buildNumber": "3"
     },
     "android": {
       "googleServicesFile": "./google-services.json",
